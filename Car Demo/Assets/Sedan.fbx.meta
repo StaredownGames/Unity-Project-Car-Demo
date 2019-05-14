@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: e1cfdf51b9d29474ca70a4584d762c64
+timeCreated: 1557812803
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: Door.DF
+    100004: Door.DR
+    100006: Door.PF
+    100008: Door.PR
+    100010: Hood
+    100012: Seats.Front
+    100014: Seats.Rear
+    100016: SteeringWheel
+    100018: Sunroof
+    100020: //RootNode
+    100022: Trunk
+    100024: Wheel
+    100026: Window.Door.DF
+    100028: Window.Door.DF.001
+    100030: Window.Door.DR
+    100032: Window.Door.DR.001
+    400000: Body
+    400002: Door.DF
+    400004: Door.DR
+    400006: Door.PF
+    400008: Door.PR
+    400010: Hood
+    400012: Seats.Front
+    400014: Seats.Rear
+    400016: SteeringWheel
+    400018: Sunroof
+    400020: //RootNode
+    400022: Trunk
+    400024: Wheel
+    400026: Window.Door.DF
+    400028: Window.Door.DF.001
+    400030: Window.Door.DR
+    400032: Window.Door.DR.001
+    2300000: Body
+    2300002: Door.DF
+    2300004: Door.DR
+    2300006: Door.PF
+    2300008: Door.PR
+    2300010: Hood
+    2300012: Seats.Front
+    2300014: Seats.Rear
+    2300016: SteeringWheel
+    2300018: Sunroof
+    2300020: Trunk
+    2300022: Wheel
+    2300024: Window.Door.DF
+    2300026: Window.Door.DF.001
+    2300028: Window.Door.DR
+    2300030: Window.Door.DR.001
+    3300000: Body
+    3300002: Door.DF
+    3300004: Door.DR
+    3300006: Door.PF
+    3300008: Door.PR
+    3300010: Hood
+    3300012: Seats.Front
+    3300014: Seats.Rear
+    3300016: SteeringWheel
+    3300018: Sunroof
+    3300020: Trunk
+    3300022: Wheel
+    3300024: Window.Door.DF
+    3300026: Window.Door.DF.001
+    3300028: Window.Door.DR
+    3300030: Window.Door.DR.001
+    4300000: Wheel
+    4300002: Body
+    4300004: Trunk
+    4300006: Hood
+    4300008: Sunroof
+    4300010: Door.PR
+    4300012: Window.Door.DR.001
+    4300014: Door.PF
+    4300016: Window.Door.DF.001
+    4300018: SteeringWheel
+    4300020: Seats.Rear
+    4300022: Seats.Front
+    4300024: Door.DR
+    4300026: Window.Door.DR
+    4300028: Door.DF
+    4300030: Window.Door.DF
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,841 @@
+fileFormatVersion: 2
+guid: 306ee2eeffb21b646a3fa874b9d2917b
+timeCreated: 1557128758
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm.L
+    100002: Arm.R
+    100004: Armature
+    100006: Cube
+    100008: Foot.L
+    100010: Foot.L_end
+    100012: Foot.R
+    100014: Foot.R_end
+    100016: Forearm.L
+    100018: Forearm.R
+    100020: Hand.L
+    100022: Hand.L_end
+    100024: Hand.R
+    100026: Hand.R_end
+    100028: Head
+    100030: Head_end
+    100032: Lamp
+    100034: Leg.L
+    100036: Leg.R
+    100038: Neck
+    100040: Pelvis
+    100042: Shin.L
+    100044: Shin.R
+    100046: Spine
+    100048: //RootNode
+    400000: Arm.L
+    400002: Arm.R
+    400004: Armature
+    400006: Cube
+    400008: Foot.L
+    400010: Foot.L_end
+    400012: Foot.R
+    400014: Foot.R_end
+    400016: Forearm.L
+    400018: Forearm.R
+    400020: Hand.L
+    400022: Hand.L_end
+    400024: Hand.R
+    400026: Hand.R_end
+    400028: Head
+    400030: Head_end
+    400032: Lamp
+    400034: Leg.L
+    400036: Leg.R
+    400038: Neck
+    400040: Pelvis
+    400042: Shin.L
+    400044: Shin.R
+    400046: Spine
+    400048: //RootNode
+    4300000: Cube
+    7400000: Armature|CubeAction
+    7400002: Armature|EnterCar
+    7400004: Armature|Idle
+    7400006: Armature|Idle.002
+    7400008: Armature|Walk
+    7400010: Cube|CubeAction
+    7400012: Cube|Idle
+    7400014: Cube|Idle.002
+    7400016: Armature|CubeAction (1)
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|CubeAction
+      takeName: Armature|CubeAction
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Pelvis
+        weight: 1
+      - path: Armature/Pelvis/Leg.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Pelvis/Leg.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Armature/Pelvis/Spine
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck/Head
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck/Head/Head_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|EnterCar
+      takeName: Armature|EnterCar
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Pelvis
+        weight: 1
+      - path: Armature/Pelvis/Leg.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Pelvis/Leg.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Armature/Pelvis/Spine
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck/Head
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck/Head/Head_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Pelvis
+        weight: 1
+      - path: Armature/Pelvis/Leg.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Pelvis/Leg.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Armature/Pelvis/Spine
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck/Head
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck/Head/Head_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle.002
+      takeName: Armature|Idle.002
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Pelvis
+        weight: 1
+      - path: Armature/Pelvis/Leg.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Pelvis/Leg.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Armature/Pelvis/Spine
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck/Head
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck/Head/Head_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Walk
+      takeName: Armature|Walk
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Pelvis
+        weight: 1
+      - path: Armature/Pelvis/Leg.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Pelvis/Leg.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Armature/Pelvis/Spine
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck/Head
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck/Head/Head_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cube|CubeAction
+      takeName: Cube|CubeAction
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Pelvis
+        weight: 1
+      - path: Armature/Pelvis/Leg.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Pelvis/Leg.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Armature/Pelvis/Spine
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck/Head
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck/Head/Head_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cube|Idle
+      takeName: Cube|Idle
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Pelvis
+        weight: 1
+      - path: Armature/Pelvis/Leg.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Pelvis/Leg.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Armature/Pelvis/Spine
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck/Head
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck/Head/Head_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Cube|Idle.002
+      takeName: Cube|Idle.002
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Pelvis
+        weight: 1
+      - path: Armature/Pelvis/Leg.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Pelvis/Leg.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Armature/Pelvis/Spine
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck/Head
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck/Head/Head_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|CubeAction (1)
+      takeName: Armature|CubeAction
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Pelvis
+        weight: 1
+      - path: Armature/Pelvis/Leg.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L/Foot.L
+        weight: 1
+      - path: Armature/Pelvis/Leg.L/Shin.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Pelvis/Leg.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R/Foot.R
+        weight: 1
+      - path: Armature/Pelvis/Leg.R/Shin.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Armature/Pelvis/Spine
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L/Hand.L
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.L/Forearm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R/Hand.R
+        weight: 1
+      - path: Armature/Pelvis/Spine/Arm.R/Forearm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck/Head
+        weight: 1
+      - path: Armature/Pelvis/Spine/Neck/Head/Head_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
